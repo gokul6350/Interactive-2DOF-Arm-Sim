@@ -1,7 +1,3 @@
-<!--
-SEO: Interactive Arm Simulator, 2-DOF robotic arm, inverse kinematics, python gradio app, robotics education, interactive simulation, arm kinematics visualization, open source robotics tool, robot arm math, educational robotics, engineering demo, real-time robotics, STEM learning
-Description: Interactive Arm Simulator is a Python Gradio app for simulating and visualizing the inverse kinematics of a 2-DOF robotic arm. Adjust controls, see real-time results, and learn the math behind robotic arms. Perfect for education, demos, and open source robotics projects.
--->
 ---
 title: Interactive Arm Simulator
 emoji: 🤖
@@ -10,8 +6,26 @@ colorTo: green
 sdk: gradio
 sdk_version: 3.45.0
 app_file: app.py
-pinned: false
+tags:
+  - robotics
+  - inverse-kinematics
+  - gradio
+  - python
+  - simulation
+  - education
+  - visualization
+  - arm-simulator
+  - interactive
+  - STEM
+thumbnail: controls.png
 ---
+
+<!--
+SEO: Interactive Arm Simulator, 2-DOF robotic arm, inverse kinematics, python gradio app, robotics education, interactive simulation, arm kinematics visualization, open source robotics tool, robot arm math, educational robotics, engineering demo, real-time robotics, STEM learning
+Description: Interactive Arm Simulator is a Python Gradio app for simulating and visualizing the inverse kinematics of a 2-DOF robotic arm. Adjust controls, see real-time results, and learn the math behind robotic arms. Perfect for education, demos, and open source robotics projects.
+-->
+
+
 
 # Interactive Arm Simulator
 
