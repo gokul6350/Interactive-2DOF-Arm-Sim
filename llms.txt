@@ -1,0 +1,6 @@
+# LLMs and AI bots crawling policy for this site
+# Repository: https://github.com/gokul6350/Interactive-2DOF-Arm-Sim
+User-Agent: *
+Allow: /
+
+# For more info: https://llmstxt.org/
