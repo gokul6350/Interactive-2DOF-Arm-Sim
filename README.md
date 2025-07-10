@@ -1,25 +1,28 @@
 ---
 title: Interactive Arm Simulator
-emoji: 🤖
+emoji: 🚀
 colorFrom: blue
 colorTo: green
 sdk: gradio
-sdk_version: 3.45.0
+sdk_version: 5.36.2
 app_file: app.py
 tags:
-  - robotics
-  - inverse-kinematics
-  - gradio
-  - python
-  - simulation
-  - education
-  - visualization
-  - arm-simulator
-  - interactive
-  - STEM
-thumbnail: controls.png
+- robotics
+- inverse-kinematics
+- gradio
+- python
+- simulation
+- education
+- visualization
+- arm-simulator
+- interactive
+- STEM
+thumbnail: >-
+  https://cdn-uploads.huggingface.co/production/uploads/653637973da0ff3c70cac1b5/grSqNUonDS7CApHsbnc8U.png
+license: mit
+pinned: true
+short_description: Interactive 2-DOF robotic arm simulator with real-time inver
 ---
-
 <!--
 SEO: Interactive Arm Simulator, 2-DOF robotic arm, inverse kinematics, python gradio app, robotics education, interactive simulation, arm kinematics visualization, open source robotics tool, robot arm math, educational robotics, engineering demo, real-time robotics, STEM learning
 Description: Interactive Arm Simulator is a Python Gradio app for simulating and visualizing the inverse kinematics of a 2-DOF robotic arm. Adjust controls, see real-time results, and learn the math behind robotic arms. Perfect for education, demos, and open source robotics projects.
@@ -71,24 +74,17 @@ This app calculates the joint angles needed for a 2-link arm to reach a target p
 
 **1. Elbow Angle ($q_2$):**
 Uses the Law of Cosines:
-
 $$ \cos(q_2) = \frac{x^2 + y^2 - L_1^2 - L_2^2}{2L_1L_2} $$
-
 **2. Shoulder Angle ($q_1$):**
 Combines the angle to the target and the triangle's internal angle:
-
 $$ q_1 = \alpha - \beta $$
 Where:
 - $\alpha = \text{atan2}(y, x)$ (angle to target)
 - $\beta = \text{atan2}(L_2 \sin(q_2), L_1 + L_2 \cos(q_2))$
-
 If the target is unreachable, the app shows a warning and marks it in red.
-
 ---
-
 ## 📝 Copy the Core Python Function
 The app includes a dropdown with the following code for your use:
-
 ```python
 def inver_k(l1, l2, x, y):
     """
@@ -112,7 +108,6 @@ def inver_k(l1, l2, x, y):
     q1 = alpha - beta
     return (True, q1, q2)
 ```
-
 ---
 
 ## 📚 Credits
